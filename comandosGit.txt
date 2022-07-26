@@ -31,3 +31,4 @@ Repositório Remoto:
 . git push (Envia os commits locais para o remoto)
 
 Alteração realizada no repositório local
+Alteração realizada diretamente no github
