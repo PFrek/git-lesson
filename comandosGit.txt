@@ -1,0 +1,31 @@
+Configurações de credenciais:
+. git config --global user.name "Nome do usuário"
+. git config --global user.email "E-mail do usuário"
+. git config --global user.signingKey "Senha do usuário"
+
+Repositório Local:
+. git init (Cria um novo repositório na pasta atual)
+. git add "Nome da pasta" (Adiciona pasta)
+. git add nome_do_arquivo.js (Adiciona arquivo)
+. git add . (Adiciona todas as alterações)
+. git rm nome_do_arquivo.js (Remove arquivo)
+. git rm "Nome da pasta" (Remove pasta)
+
+Commits:
+. git commit nome_do_arquivo.js
+. git commit nome_do_arquivo.js outro_arquivo.txt
+. git commit outro_arquivo.txt -m "Mensagem do Commit"
+. git status (Mostra os arquivos modificados)
+
+Branches:
+. git branch (Informa as branches locais disponíveis, destacando a atual)
+. git checkout "Nome da branch" (Acessa a branch)
+. git checkout -b "Nome da nova branch" (Cria uma nova branch baseada na atual e acessa)
+. git merge "Nome da branch" (Mescla as branches, trazendo dados da indicada para a atual)
+. git branch -d "Nome da branch" (Deleta a branch)
+
+Repositório Remoto:
+. git remote -v (Lista os repositórios remotos)
+. git remote add origin "URL remota" (Vincula repositórios)
+. git pull (Atualiza o repositório local a partir do remoto)
+. git push (Envia os commits locais para o remoto)
