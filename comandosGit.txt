@@ -29,3 +29,5 @@ Repositório Remoto:
 . git remote add origin "URL remota" (Vincula repositórios)
 . git pull (Atualiza o repositório local a partir do remoto)
 . git push (Envia os commits locais para o remoto)
+
+Alteração realizada no repositório local
